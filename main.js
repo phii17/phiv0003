@@ -7,7 +7,7 @@ const { calculateFee, GasPrice } = require('@cosmjs/stargate');
 const http = require('http');
 
 const PORT = process.env.PORT || 3000;
-const APP_URL = ''; 
+const APP_URL = 'https://phiv0003.onrender.com'; 
 
 // Ping mỗi 10 phút để không sleep 
 setInterval(async () => {
